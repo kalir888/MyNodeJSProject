@@ -1,0 +1,75 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-25T03:26:20.730Z"}
+info: Connected to the database. {"timestamp":"2022-05-25T03:26:20.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-25T03:34:44.505Z"}
+info: Connected to the database. {"timestamp":"2022-05-25T03:34:45.112Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-05-25T07:30:22.820Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/628ddb584d9db70658877fa6 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-05-25T08:20:04.641Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/628ddb584d9db70658877fa6 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-05-25T08:29:36.317Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\user\Desktop\MyProject\MyFirstProject\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\user\Desktop\MyProject\MyFirstProject\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/628ddb584d9db70658877fa6 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-05-25T08:30:59.044Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\user\Desktop\MyProject\MyFirstProject\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\user\Desktop\MyProject\MyFirstProject\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\user\Desktop\MyProject\MyFirstProject\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/628da21af5c05d1774253c5f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-05-25T08:31:36.292Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-25T09:53:42.613Z"}
+info: Connected to the database. {"timestamp":"2022-05-25T09:53:42.803Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-26T03:03:30.400Z"}
+info: Connected to the database. {"timestamp":"2022-05-26T03:03:30.648Z"}

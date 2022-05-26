@@ -1,0 +1,6 @@
+info: ::1 - - [26/May/2022:03:18:18 +0000] "PUT /api/v1/users/628de1334d9db70658877fac HTTP/1.1" 202 200 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/May/2022:03:19:02 +0000] "PUT /api/v1/users/628de1334d9db70658877fac HTTP/1.1" 202 201 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/May/2022:03:21:40 +0000] "DELETE /api/v1/users/628de18b4d9db70658877fb2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+
